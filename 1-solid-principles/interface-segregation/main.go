@@ -1,7 +1,5 @@
 package main
 
-import "go/scanner"
-
 type Document struct{}
 
 type Machine interface {
