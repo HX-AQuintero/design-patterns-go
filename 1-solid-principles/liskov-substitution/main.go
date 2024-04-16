@@ -86,4 +86,10 @@ func main() {
 	sq := NewSquare(5)
 	UseIt(sq) // Expected an area of  50 , but got  100 ❌
 
+	sq2 := Square2{5}
+
+	sq2Rectangle := sq2.Rectangle()
+
+	UseIt(&sq2Rectangle) // Expected an area of  50 , but got  50 ✅
+
 }
