@@ -26,7 +26,7 @@ func (m *MultiFunctionPrinter) Scan(d Document) {
 	//...
 }
 
-// let's add an old fasioned printer struct which doesn't really
+// let's add an old fashioned printer struct which doesn't really
 // have any scanning or faxing capabilities
 type OldFashionedPrinter struct {
 	//...
@@ -37,7 +37,7 @@ func (o *OldFashionedPrinter) Print(d Document) {
 	//...
 }
 
-// so, OldFashionedPrinter has to be forced to implement Machine❓
+// so, has OldFashionedPrinter to be forced to implement Machine❓
 func (o *OldFashionedPrinter) Fax(d Document) {
 	panic("Operation not supported")
 }

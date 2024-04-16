@@ -16,7 +16,7 @@ then it should also work correctly with derived class.
 It is not really that applicable in Go, because Go doesn't has inheritance.  
 However, there is a variation.
 ## **I**nterface Segregation Principle (ISP)  
-States that you should not put to much into a single interface.  
-It makes sense to break up the interface into several smaller interfaces.  
+States that you should not put too much into a single interface.  
+It makes sense to break up the interface into several smaller ones.  
 Grabs the needed interfaces. Avoids extra members in those interfaces.  
 ## **D**ependency Inversion Principle (DIP)
