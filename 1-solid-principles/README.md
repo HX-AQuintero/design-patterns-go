@@ -9,7 +9,11 @@ States that a type/class/constructor should have one primary responsibility.
 
 ## **O**pen-Closed Principle (OCP)  
 States that types should be open for extension, closed for modification.  
-Uses *Specification pattern*
-## **L**iskov Substitution Principle (LSP)
+Uses *Specification Pattern.*
+## **L**iskov Substitution Principle (LSP)  
+States that if something takes a base class and works correctly with it,
+then it should also work correctly with derived class.  
+It is not really that applicable in Go, because Go doesn't has inheritance.  
+However, there is a variation.
 ## **I**nterface Segregation Principle (ISP)
 ## **D**ependency Inversion Principle (DIP)
