@@ -19,4 +19,6 @@ However, there is a variation.
 States that you should not put too much into a single interface.  
 It makes sense to break up the interface into several smaller ones.  
 Grabs the needed interfaces. Avoids extra members in those interfaces.  
-## **D**ependency Inversion Principle (DIP)
+## **D**ependency Inversion Principle (DIP)  
+High-level modules should not depend on low-level modules.  
+Both should depend on abstractions.  
